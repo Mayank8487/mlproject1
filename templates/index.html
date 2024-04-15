@@ -1,1 +1,47 @@
-<h1>Welcome to the home page</h1>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f0f0f0; /* Background color */
+      }
+
+      h1 {
+        color: #333; /* Text color */
+        margin-bottom: 20px;
+      }
+
+      .button {
+        padding: 10px 20px;
+        background-color: #007bff; /* Button color */
+        color: white;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .button:hover {
+        background-color: #0056b3; /* Button color on hover */
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the home page</h1>
+    <a class="button" href="http://127.0.0.1:5000/predictdata"
+      >Go to Predict Data Page</a
+    >
+  </body>
+</html>
